@@ -1,7 +1,11 @@
-import Image from "next/image";
+import Spline from '@splinetool/react-spline/next';
 
 export default function Home() {
-  return (
-    <h1>Coucou mes petites crêpes ❤️</h1>
-  );
+    return (
+        <main>
+            <Spline
+                scene="https://prod.spline.design/OpGWl72BoTa625Fh/scene.splinecode"
+            />
+        </main>
+    );
 }
